@@ -22,21 +22,19 @@ public class Item : MonoBehaviour
         interactionTextUI.gameObject.SetActive(false);
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.collider.gameObject.name.Equals("Player"))
+        if (collision.gameObject.tag.Equals("Player"))
         {
-            // Show interaction prompt when player collides with the object
             Debug.Log("collision deteceted");
             inRange = true;
             //interactionTextUI.text = "Press E";
             interactionTextUI.gameObject.SetActive(true);
         }
     }
-
-    private void OnCollisionExit(Collision other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        if (other.collider.gameObject.name.Equals("Player"))
+        if (collision.gameObject.tag.Equals("Player"))
 
 
         {
@@ -49,12 +47,14 @@ public class Item : MonoBehaviour
         }
     }
 
+   
+
     private void Update()
     {
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
             // Load the next scene when player interacts with the object
-            LoadNextScene();
+            SceneManager.LoadScene("Oldman");
         }
     }
 
