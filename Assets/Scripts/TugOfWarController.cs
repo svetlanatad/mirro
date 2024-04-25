@@ -21,7 +21,7 @@ public class TugOfWarController : MonoBehaviour
             rb.AddForce(Vector2.left * force*5 , ForceMode2D.Impulse);
             
         }
-        rb.AddForce(Vector2.right * force*2 , ForceMode2D.Impulse);
+        rb.AddForce(Vector2.right * force*0.1f, ForceMode2D.Impulse);
 
     }
 }
