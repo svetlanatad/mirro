@@ -14,7 +14,7 @@ public class Win : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals("Player") && !active)
         {
-            interactionTextUI.gameObject.SetActive(active);
+            interactionTextUI.gameObject.SetActive(true);
             Debug.Log("Won");
             presse.gameObject.SetActive(false);
         }

@@ -18,9 +18,10 @@ public class TugOfWarController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            rb.AddForce(Vector2.left * force*5 , ForceMode2D.Impulse);
+            rb.AddForce(Vector2.left * force*7f , ForceMode2D.Impulse);
             
         }
+//add bool later
         rb.AddForce(Vector2.right * force*0.1f, ForceMode2D.Impulse);
 
     }

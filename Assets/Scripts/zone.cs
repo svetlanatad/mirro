@@ -6,12 +6,12 @@ using UnityEngine;
 public class zone : MonoBehaviour
 
 {
-    public TextMeshProUGUI interactionTextUI; // Reference to the TextMeshProUGUI element displaying interaction prompt
-    public TextMeshProUGUI presse;
+    //public TextMeshProUGUI interactionTextUI; // Reference to the TextMeshProUGUI element displaying interaction prompt
+    //public TextMeshProUGUI presse;
     // Start is called before the first frame update
     void Start()
     {
-        interactionTextUI.gameObject.SetActive(false);
+        //interactionTextUI.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,8 +22,8 @@ public class zone : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag.Equals("Parcel")) {
-            interactionTextUI.gameObject.SetActive(true);
-            presse.gameObject.SetActive(false);
+            //interactionTextUI.gameObject.SetActive(true);
+           // presse.gameObject.SetActive(false);
         }
     }
 }
