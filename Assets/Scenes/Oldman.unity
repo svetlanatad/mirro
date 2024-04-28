@@ -685,6 +685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionTextUI: {fileID: 632781067}
   presse: {fileID: 71699314}
+  active: 0
 --- !u!61 &488829761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1739,7 +1740,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   presse: {fileID: 71699314}
   lose: {fileID: 2142415595}
+  interactionTextUI: {fileID: 632781067}
   loseButton: {fileID: 1763835699}
+  active: 0
 --- !u!1 &1146828678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,8 +1932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3faf3ad33a48f644bc41dd29ff1597c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionTextUI: {fileID: 632781067}
-  presse: {fileID: 71699314}
 --- !u!1 &1150423511
 GameObject:
   m_ObjectHideFlags: 0

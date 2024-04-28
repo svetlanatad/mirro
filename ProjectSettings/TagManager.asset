@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Enemy
   - Parcel
+  - Skey
+  - Dkey
+  - Wkey
+  - Akey
+  - Activator
+  - Holder
   layers:
   - Default
   - TransparentFX
@@ -42,4 +48,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Button
+    uniqueID: 1930380597
+    locked: 0
+  - name: Arrows
+    uniqueID: 3728113757
     locked: 0
