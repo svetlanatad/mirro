@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 633fceeb1b575f0449b1de85a9d598c0
-=======
-guid: 39cc6f89de45449c6a85a30de99a2df4
->>>>>>> 1cb738c (new minigame bossfight dropped)
+guid: bcbb6127186424e519599989d0886cce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

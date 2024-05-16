@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0d70c9e4642824d1f8ac7b304b556746
+=======
+guid: 1d940eab627a44a6ea64bd05fdaa7e5f
+>>>>>>> 1cb738c (new minigame bossfight dropped)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

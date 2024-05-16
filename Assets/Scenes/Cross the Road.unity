@@ -661,7 +661,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: b1f9bc2f79157654e9a0aeb0e608f7c7, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 9d80acb6d4db14360ae9ba57978f516c, type: 3}
+>>>>>>> 1cb738c (new minigame bossfight dropped)
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

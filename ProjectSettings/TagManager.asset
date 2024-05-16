@@ -14,8 +14,12 @@ TagManager:
   - Holder
   - bounds
   - car
+<<<<<<< HEAD
   - Obstacle
   - Objective
+=======
+  - wall
+>>>>>>> 1cb738c (new minigame bossfight dropped)
   layers:
   - Default
   - TransparentFX
