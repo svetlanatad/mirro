@@ -12,6 +12,10 @@ TagManager:
   - Akey
   - Activator
   - Holder
+  - bounds
+  - car
+  - Obstacle
+  - Objective
   layers:
   - Default
   - TransparentFX
@@ -20,7 +24,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Ladder
   - 
   - 
   - 
