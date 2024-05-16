@@ -1889,6 +1889,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: mirro right
       objectReference: {fileID: 0}
+    - target: {fileID: 6053841129634598434, guid: 8f7e4de27bab9124fb489451f77a3121, type: 3}
+      propertyPath: m_Size.y
+      value: 9.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6053841129634598434, guid: 8f7e4de27bab9124fb489451f77a3121, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19
+      objectReference: {fileID: 0}
     - target: {fileID: 6302582060640757744, guid: 8f7e4de27bab9124fb489451f77a3121, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.00276
