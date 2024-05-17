@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Lose : MonoBehaviour
@@ -33,5 +34,11 @@ public class Lose : MonoBehaviour
         
            }
 }
+
+    public void ResetTheGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
+    }
 
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class TugOfWarController : MonoBehaviour
 {
     private float speed = 2f;
-    private float force = 45f;
+    private float force = 50f;
     public Rigidbody2D rb;
     private float cooldownDuration = 0.01f; 
     private float cooldownTimer = 0f;
@@ -17,6 +17,7 @@ public class TugOfWarController : MonoBehaviour
 
     void Update()
     {
+
         // Update the cooldown timer
         if (cooldownTimer > 0f)
         {

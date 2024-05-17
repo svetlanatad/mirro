@@ -54,7 +54,7 @@ public class Item : MonoBehaviour
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
             // Load the next scene when player interacts with the object
-            SceneManager.LoadScene("Oldman");
+            SceneManager.LoadScene("OuterCity");
         }
     }
 

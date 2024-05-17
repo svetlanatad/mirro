@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/1.House/Start.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Oldman.unity
+    path: Assets/Scenes/2.TugOfWar/Oldman.unity
     guid: 66847a038b8caa34485dc5ffbe1f7e89
   - enabled: 1
     path: Assets/Scenes/Donkeykong/H_Donkey Kong.unity
@@ -18,12 +18,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Donkeykong/DonkeyKongEnd.unity
     guid: d849c43b18189d4478dff1e0ff69a3ab
   - enabled: 1
-    path: Assets/Scenes/0_house_starting.unity
+    path: Assets/Scenes/1.House/0_house_starting.unity
     guid: 197c2bdc7ccc2844992db8cecccacf02
   - enabled: 1
-    path: Assets/Scenes/1_father_room.unity
+    path: Assets/Scenes/1.House/1_father_room.unity
     guid: ce409021c3cde8b40a9dc1180fbbac84
   - enabled: 1
-    path: Assets/Scenes/2_mother_room.unity
+    path: Assets/Scenes/1.House/2_mother_room.unity
     guid: 2ba86e0019a325a44960cf6bf95a3769
+  - enabled: 1
+    path: Assets/Scenes/2.TugOfWar/OuterCity.unity
+    guid: 030ba3d4d5745884e8fa1ea835925ca9
+  - enabled: 1
+    path: Assets/Scenes/2.TugOfWar/Win.unity
+    guid: 9a2d61be102055b4c8207a8a6e158e96
+  - enabled: 1
+    path: Assets/Scenes/3.Cross the Road/OuterCity 1.unity
+    guid: 48ddc71774c431446b7a64790d447835
   m_configObjects: {}
