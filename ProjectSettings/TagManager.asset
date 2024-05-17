@@ -8,6 +8,8 @@ TagManager:
   - Parcel
   - Obstacle
   - Objective
+  - wall
+  - Light
   layers:
   - Default
   - TransparentFX
