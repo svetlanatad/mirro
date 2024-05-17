@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DadMovementScript : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class DadMovementScript : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float chargeSpeed;
     [SerializeField] private float chargeCooldown;
+
+    [SerializeField] private Slider slider;
+
 
     private bool toCharge = false;
     private Vector3 targetPos;
@@ -51,6 +55,7 @@ public class DadMovementScript : MonoBehaviour
         {
             toCharge = false;
             dadHP--;
+            slider.value--;
             Debug.Log("oop touched a wall ow");
         }
         
