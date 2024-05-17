@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
             direction.y = Input.GetAxis("Vertical") * moveSpeed;
         } else if (grounded && Input.GetButtonDown("Jump")) {
             direction = Vector2.up * jumpStrength;
+            Debug.Log("Jump");
         } else {
             direction += Physics2D.gravity * Time.deltaTime;
         }
