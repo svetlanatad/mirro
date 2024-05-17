@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    public TextMeshProUGUI interactionTextUI; // Reference to the TextMeshProUGUI element displaying interaction prompt
+    public TextMeshProUGUI interactionTextUI; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
