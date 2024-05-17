@@ -5,6 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10f; // Movement speed
 
     private Rigidbody2D rb;
+    private Vector2 movement;
 
     void Start()
     {
@@ -15,8 +16,17 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
-        float moveVertical = Input.GetAxisRaw("Vertical");
-        Vector2 movement = new Vector2(moveHorizontal, moveVertical).normalized * speed * Time.deltaTime;
+        if(gameObject.tag != "MainCamera")
+        {
+            float moveVertical = Input.GetAxisRaw("Vertical");
+            movement = new Vector2(moveHorizontal, moveVertical).normalized * speed * Time.deltaTime;
+        }
+        else
+        {
+            movement = new Vector2(moveHorizontal, 0f).normalized * speed * Time.deltaTime;
+
+
+        }
         rb.MovePosition(rb.position + movement);
     }
 }

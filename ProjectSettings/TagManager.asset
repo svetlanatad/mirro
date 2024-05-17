@@ -3,32 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-  - Parcel
-  - Skey
-  - Dkey
-  - Wkey
-  - Akey
-  - Activator
-  - Holder
-  - bounds
-  - car
-<<<<<<< HEAD
-  - Obstacle
-  - Objective
-=======
-  - wall
->>>>>>> 1cb738c (new minigame bossfight dropped)
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Character
   - Water
   - UI
-  - Ground
-  - Ladder
+  - 
+  - 
   - 
   - 
   - 
@@ -57,9 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Button
-    uniqueID: 1930380597
-    locked: 0
-  - name: Arrows
-    uniqueID: 3728113757
+  - name: Character
+    uniqueID: 510921405
     locked: 0
