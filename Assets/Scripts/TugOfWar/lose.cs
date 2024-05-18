@@ -22,7 +22,7 @@ public class Lose : MonoBehaviour
             lose.gameObject.SetActive(true);
             loseButton.gameObject.SetActive(true);
             presse.gameObject.SetActive(false);
-
+            Time.timeScale = 0f;
             Debug.Log("Lost");
             active = true;
 
@@ -38,6 +38,7 @@ public class Lose : MonoBehaviour
     public void ResetTheGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1f;
         
     }
 

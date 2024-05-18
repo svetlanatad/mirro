@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Win : MonoBehaviour
@@ -15,12 +16,12 @@ public class Win : MonoBehaviour
         if (collision.gameObject.tag.Equals("Player") && !active)
         {
             interactionTextUI.gameObject.SetActive(true);
-            Debug.Log("Won");
+           
             presse.gameObject.SetActive(false);
+            SceneManager.LoadScene("Win");
         }
 	
             presse.gameObject.SetActive(false);
-        Debug.Log("aaa");
 
     }
 }

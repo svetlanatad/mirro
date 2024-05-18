@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/2.TugOfWar/Oldman.unity
     guid: 66847a038b8caa34485dc5ffbe1f7e89
   - enabled: 1
-    path: Assets/Scenes/Donkeykong/H_Donkey Kong.unity
+    path: Assets/Scenes/4.Donkeykong/H_Donkey Kong.unity
     guid: c33e01c79d70dbe428e5790ff79df731
   - enabled: 1
-    path: Assets/Scenes/Donkeykong/DonkeyKongEnd.unity
+    path: Assets/Scenes/4.Donkeykong/DonkeyKongEnd.unity
     guid: d849c43b18189d4478dff1e0ff69a3ab
   - enabled: 1
     path: Assets/Scenes/1.House/0_house_starting.unity
@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3.Cross the Road/OuterCity 1.unity
     guid: 48ddc71774c431446b7a64790d447835
+  - enabled: 1
+    path: Assets/Scenes/4.Donkeykong/GoingToStage.unity
+    guid: 449ffd7a1b0cf12438c0e6c5f5023a2b
+  - enabled: 1
+    path: Assets/Scenes/4.Donkeykong/Pub.unity
+    guid: 876e67e114bc64a439b54f04f4ad9b4b
+  - enabled: 1
+    path: Assets/Scenes/4.Donkeykong/Death.unity
+    guid: bf34f0d1d178717489493518db698b29
   m_configObjects: {}

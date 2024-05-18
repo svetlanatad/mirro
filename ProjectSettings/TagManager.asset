@@ -10,6 +10,7 @@ TagManager:
   - Objective
   - wall
   - Light
+  - Ground
   layers:
   - Default
   - TransparentFX

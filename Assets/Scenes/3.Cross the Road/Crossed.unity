@@ -889,6 +889,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 215301997137124952, guid: 08dc56cf45ce3824abe2be4c8ea878ad, type: 3}
+      propertyPath: m_Name
+      value: Changer1
+      objectReference: {fileID: 0}
     - target: {fileID: 1109977690083090969, guid: 08dc56cf45ce3824abe2be4c8ea878ad, type: 3}
       propertyPath: m_Name
       value: BlackScreen

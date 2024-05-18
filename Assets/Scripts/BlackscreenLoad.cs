@@ -14,6 +14,10 @@ public class BlackscreenLoad : MonoBehaviour
             {
                 SceneManager.LoadScene("OuterCity 1");
             }
+            if (gameObject.name == "Changer1")
+            {
+                SceneManager.LoadScene("GoingToStage");
+            }
         }
     }
 
