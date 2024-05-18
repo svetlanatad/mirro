@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor.Presets;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Interactable : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class Interactable : MonoBehaviour
             interactionTextUI.gameObject.SetActive(false);
 
         }
+    }
+
+    public void GotoTugOfWar()
+    {
+        SceneManager.LoadScene("Oldman");
     }
 }
