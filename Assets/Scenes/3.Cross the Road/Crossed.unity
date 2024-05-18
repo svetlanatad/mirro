@@ -897,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 3478844994020993324, guid: 08dc56cf45ce3824abe2be4c8ea878ad, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 6408480003325069441, guid: 08dc56cf45ce3824abe2be4c8ea878ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 24.856575

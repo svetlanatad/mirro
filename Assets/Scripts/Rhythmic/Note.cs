@@ -37,7 +37,6 @@ public class Note : MonoBehaviour
         if(collision.tag == "Activator")
         {
             canBePressed = true;
-            Debug.Log("Enter");
         }
     } private void OnTriggerExit2D(Collider2D collision)
     {

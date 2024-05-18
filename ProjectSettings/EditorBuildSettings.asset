@@ -44,4 +44,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4.Donkeykong/Death.unity
     guid: bf34f0d1d178717489493518db698b29
+  - enabled: 1
+    path: Assets/Scenes/5.Rhythmic Game/RealGoingStage.unity
+    guid: a2744a7a6af170f4a9bb6bded5fa80cc
+  - enabled: 1
+    path: Assets/Scenes/5.Rhythmic Game/Rythmic Game.unity
+    guid: 39e0865178e62464db2806a3821ab9cb
+  - enabled: 1
+    path: Assets/Scenes/5.Rhythmic Game/Cheers.unity
+    guid: 2e2f8b45d298a4e49be71c9be8db0a01
+  - enabled: 1
+    path: Assets/Scenes/3.Cross the Road/Crossed.unity
+    guid: fd5c770de61edbc419c9a6e98976e1bb
+  - enabled: 1
+    path: Assets/Scenes/5.Rhythmic Game/Stage.unity
+    guid: 87e43da9688ad0741a049f20ebc2ab21
   m_configObjects: {}

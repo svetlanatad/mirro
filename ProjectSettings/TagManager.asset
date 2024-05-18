@@ -11,6 +11,11 @@ TagManager:
   - wall
   - Light
   - Ground
+  - Activator
+  - Holder
+  - bounds
+  - car
+  - Reverse
   layers:
   - Default
   - TransparentFX

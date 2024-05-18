@@ -14,6 +14,11 @@ public class EntertheStage : MonoBehaviour
             {
                 SceneManager.LoadScene("H_Donkey Kong");
             }
+            if(gameObject.name == "aa")
+            {
+                SceneManager.LoadScene("Stage");
+            }
         }
+        
     }
 }

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public class ToMoveTowardsObjectScript : MonoBehaviour
 {
@@ -10,17 +10,41 @@ public class ToMoveTowardsObjectScript : MonoBehaviour
     private int MoveCount = 0;
     private float MoveDistance = 1.3f;
     [SerializeField] GameObject Mirro;
+    bool check;
+    int count=0;
 
     // Update is called once per frame
     void Update()
 
     {
-
+        if (check)
+        {
+            MoveDistance = -MoveDistance;
+            check = false;
+        }
         if (Input.GetKeyDown("space"))
         {
             move();
         }
 
+        if (count >= 2)
+        {
+            SceneManager.LoadScene("Crossed");
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Reverse")
+        {
+            check = true;
+            Debug.Log("Hell Yeah");
+        }
+        if (collision.gameObject.tag == "wall")
+        {
+            count++;
+            Debug.Log(count);
+        }
     }
     public void move()
     {
@@ -35,7 +59,7 @@ public class ToMoveTowardsObjectScript : MonoBehaviour
 
 
         transform.position += new Vector3(0, MoveDistance, 0);
-        Debug.Log(MoveCount);
+        //Debug.Log(MoveCount);
         MoveCount++;
 
 

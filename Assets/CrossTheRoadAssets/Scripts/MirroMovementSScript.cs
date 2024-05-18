@@ -7,17 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class MirroMovementSScript : MonoBehaviour
 {
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    
+   
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, GameObject.FindGameObjectWithTag("Enemy").transform.position, 0.006f);
+
     }
 
 
@@ -30,6 +27,8 @@ public class MirroMovementSScript : MonoBehaviour
             Debug.Log("boop");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+        
 
     }
+    
 }
