@@ -18,6 +18,10 @@ public class BlackscreenLoad : MonoBehaviour
             {
                 SceneManager.LoadScene("GoingToStage");
             }
+            if (gameObject.name == "Changer2")
+            {
+                SceneManager.LoadScene("MeetingFather");
+            }
         }
     }
 
