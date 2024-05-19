@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class MirroMovementSScript : MonoBehaviour
 {
-    
-   
+    // [SerializeField] Sprite MirroFront;
+    // private SpriteRenderer spriteRenderer;
+
 
     // Update is called once per frame
     void Update()
@@ -27,8 +28,21 @@ public class MirroMovementSScript : MonoBehaviour
             Debug.Log("boop");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
-        
+
 
     }
-    
+
+    // void Start()
+    // {
+    //     spriteRenderer = GetComponent<SpriteRenderer>();
+    //     // ChangeSprite();
+    // }
+    // public void ChangeSprite()
+    // {
+
+
+    //     spriteRenderer.sprite = MirroFront;
+
+    // }
+
 }
