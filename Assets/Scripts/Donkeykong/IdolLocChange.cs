@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class IdolLocChange : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Transform idol;
+    [SerializeField] private Transform stageLoc;
+    [SerializeField] private Transform barLoc;
+    bool doorCheck;
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.gameObject.tag == "Player" && gameObject.name == "stageEnt")
+        {
+            idol.position = stageLoc.position;   
+        }
+        if (collision.gameObject.tag == "Player" && gameObject.name == "BarEnt")
+        {
+            idol.position = barLoc.position;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
