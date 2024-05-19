@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IdolLocChange : MonoBehaviour
 {
-    [SerializeField] private Transform idol;
+    [SerializeField] private GameObject idol;
     [SerializeField] private Transform stageLoc;
     [SerializeField] private Transform barLoc;
     bool doorCheck;
@@ -14,11 +14,13 @@ public class IdolLocChange : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player" && gameObject.name == "stageEnt")
         {
-            idol.position = stageLoc.position;   
+            idol.transform.position = stageLoc.position;   
+            idol.GetComponent<Collider2D>().enabled = false;
         }
-        if (collision.gameObject.tag == "Player" && gameObject.name == "BarEnt")
+        if (collision.gameObject.tag == "Player" && gameObject.name == "barEnt")
         {
-            idol.position = barLoc.position;
+            idol.GetComponent<Collider2D>().enabled = true;
+            idol.transform.position = barLoc.position;
         }
     }
 
