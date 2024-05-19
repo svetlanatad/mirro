@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6.Last Fight/MeetingFather.unity
     guid: 1ff8a91911ceb864a8e7322203ba705a
+  - enabled: 1
+    path: Assets/Scenes/3.Cross the Road/Cross the Road.unity
+    guid: e5621a80b680847d099a903f2a982b41
   m_configObjects: {}

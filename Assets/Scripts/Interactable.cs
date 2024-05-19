@@ -30,4 +30,8 @@ public class Interactable : MonoBehaviour
     {
         SceneManager.LoadScene("Oldman");
     }
+    public void GoToCross()
+    {
+        SceneManager.LoadScene("Cross the Road");
+    }
 }
