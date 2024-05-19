@@ -68,4 +68,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3.Cross the Road/Cross the Road.unity
     guid: e5621a80b680847d099a903f2a982b41
+  - enabled: 1
+    path: Assets/Scenes/6.Last Fight/Cave.unity
+    guid: d43099a1b5051e54791d2debe6da4b7c
+  - enabled: 1
+    path: Assets/Scenes/Finale/back_to_house.unity
+    guid: f7fb1f0a768e49348ada1ef50b796caa
   m_configObjects: {}

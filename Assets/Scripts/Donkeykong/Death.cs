@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Death : MonoBehaviour
 {
+    [SerializeField] private Rigidbody2D Light;
+    public float delaySeconds = 2f;
+    public GameObject Sound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Light")
@@ -14,7 +17,19 @@ public class Death : MonoBehaviour
     }
     private IEnumerator ChangeSceneAfterDelay()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(7);
         SceneManager.LoadScene("RealGoingStage");
     }
+    public void Tadam()
+    {
+        Light.gravityScale = 1.0f;
+        StartCoroutine(EnableObjectAfterDelay());
+    }
+    private IEnumerator EnableObjectAfterDelay()
+    {
+        
+        yield return new WaitForSeconds(delaySeconds);       
+        Sound.SetActive(true);
+    }
+
 }

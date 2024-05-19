@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DadMovementScript : MonoBehaviour
@@ -17,7 +18,7 @@ public class DadMovementScript : MonoBehaviour
     private bool toCharge = false;
     private Vector3 targetPos;
     private Vector3 direction;
-    private int dadHP = 4;
+    private int dadHP = 5;
 
 
 
@@ -32,6 +33,9 @@ public class DadMovementScript : MonoBehaviour
             if (!toCharge)
             {
                 MoveTowardsPlayer();
+            }
+            if(dadHP <= 0) {
+                SceneManager.LoadScene("back_to_house");
             }
 
         }

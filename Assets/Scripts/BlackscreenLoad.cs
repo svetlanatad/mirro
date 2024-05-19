@@ -22,6 +22,10 @@ public class BlackscreenLoad : MonoBehaviour
             {
                 SceneManager.LoadScene("MeetingFather");
             }
+            if (gameObject.name == "ToCave")
+            {
+                SceneManager.LoadScene("Cave");
+            }
         }
     }
 
